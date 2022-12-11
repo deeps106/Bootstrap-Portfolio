@@ -1,0 +1,22 @@
+.flex {
+    display: flex;
+    font-size: 30px;
+    text-align: center;
+    background-color: #7d7d7d;
+    color: #000000;
+    font-weight: bold;
+  }
+  .flex2 {
+    justify-content: space-around;
+  }
+  .flex3 {
+    justify-content: space-between;
+  }
+  .flex-items {
+    background-color: #cccaca;
+    width: 90px;
+    height: 60px;
+    margin: 10px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 1.5;

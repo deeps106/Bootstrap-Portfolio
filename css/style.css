@@ -1,0 +1,42 @@
+
+/* navigation bar */
+.customNav{
+    background-color: steelblue;
+    height: 100px;
+    font-family: cursive, Gill Sans, Calibri;
+    color: white;
+}
+
+/* navigation links */
+
+body{
+    color: red;
+}
+#navbar-brand{
+    color: white;
+    font-size: 30px;
+}
+
+.dropdown-item-custom{
+    color: #ef0c56;
+}
+
+/* .navbar-light .navbar-nav .nav-link{
+    color: white; */
+}
+
+nav div ul li a{
+    color:white;
+}
+
+a.nav-link{
+    color: white;
+}
+
+)
+/* navigation dropdown */
+
+.dropdown-item-custom{
+    background-color: rgb(95, 3, 3);
+
+}
