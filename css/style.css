@@ -24,10 +24,10 @@
 }
 
 #nav-link-custom {
-    color: #ffffff;
+    color: rgb(255, 255, 255);
 }
 #nav-link-custom:hover{
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 /* jumbotron */
@@ -74,34 +74,76 @@
 }
 /* cards */
 
+.container-fluid-custom{
+margin: 0;
+}
 
+
+.card-custom{
+    display: flex;
+    align-items: start;
+    row-gap: 20px;
+}
 
 .card-header-custom:hover{
     color: rgb(245, 245, 245);
 }
+.about-me, .myPortfolio, .futureProj, .contact, .item1, .item2, .item3, .item4{
+    font-weight: bold;
+    line-height: 300%;
+    width: 50em;
+}
 
 .about-me{
-    background-color: paleturquoise;
-    color: rgb(52, 50, 50);
-    font-weight: bold;
+    background-image: url(../images/aboutmelg.jpg);
+    background-size: 100% 100%;
+    background-color: rgb(67, 176, 207);
+    color: rgb(0, 0, 0);
 }
+
 .myPortfolio{
-    color: rgb(52, 50, 50);
-    font-weight: bold;
-    background-color: rgb(244, 164, 96);
+    font-weight: bolder;
+    background-color: rgb(255, 255, 255, 0.1);
+    background-image: url(../images/portfoliolg.jpg);
+    background-size: 100% 100%;
+    opacity: 0.8;
+    color: rgb(0, 0, 0);  
 }
+
+.transbox{
+    background-color: rgb(255, 255, 255);
+    opacity: 0.3;
+}
+
 .futureProj{
-    color: rgb(52, 50, 50);
-    font-weight: bold;
-    background-color: rgb(250, 128, 114);
+    background-image: url(../images/futurelg.jpg);
+    background-size: 100% 100%;
+    background-color: rgb(244, 143, 36);
+    color: rgb(0, 0, 0);
 }
 
 .contact{
-    color: rgb(52, 50, 50);
-    font-weight: bold;
-    background-color: rgb(251, 211, 207);
+    background-color: rgb(4, 75, 106);
+    color: rgb(255, 255, 255);
 }
+
 .btn-primary-card-custom{
     background-color: rgb(156, 181, 176);
     border-color: rgb(156, 181, 176);
+}
+
+.item1{
+    background-image: url();
+}
+
+.item2{
+    background-image: url();
+}
+
+.item3{
+    background-image: url();
+}
+
+.item4{
+    background-image: url();
 }
