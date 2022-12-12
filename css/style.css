@@ -66,18 +66,37 @@
     font-size: 1.5em;
 }
 
-/* Enter here button */
+/* buttons */
 .btn-primary-custom{
     color: rgb(203, 1, 1);
     background-color: rgb(255, 245, 238);
-    border-color:rgb(255, 245, 238);
+    border-color:rgb(255, 245, 238); 
 }
+
+.btn-primary-custom:hover{
+    box-shadow: 10px 10px 5px rgb(255, 219, 219);
+}
+
+.btn-primary-card-custom{
+    background-color: rgb(156, 181, 176);
+    border-color: rgb(156, 181, 176);
+}
+
+.btn-primary-card-custom:hover{
+    box-shadow: 5px 5px 2.5px bisque
+}
+   
+
+
 /* cards */
 
 .container-fluid-custom{
 margin: 0;
 }
 
+.row{
+    justify-content: center;
+}
 
 .card-custom{
     display: flex;
@@ -110,10 +129,6 @@ margin: 0;
     color: rgb(0, 0, 0);  
 }
 
-.transbox{
-    background-color: rgb(255, 255, 255);
-    opacity: 0.3;
-}
 
 .futureProj{
     background-image: url(../images/futurelg.jpg);
@@ -127,10 +142,7 @@ margin: 0;
     color: rgb(255, 255, 255);
 }
 
-.btn-primary-card-custom{
-    background-color: rgb(156, 181, 176);
-    border-color: rgb(156, 181, 176);
-}
+
 
 .item1{
     background-image: url();
