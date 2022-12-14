@@ -29,7 +29,7 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" id=nav-link-custom href="#">About Me</a>
+          <a class="nav-link" id=nav-link-custom href="#about-me">About Me</a>
         </li>
 
         <li class="nav-item dropdown">
@@ -38,17 +38,17 @@
             My Portfolio
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item dropdown-item-custom" href="#">Item 1</a>
-            <a class="dropdown-item dropdown-item-custom" href="#">Item 2</a>
-            <a class="dropdown-item dropdown-item-custom" href="#">Item 3</a>
-            <a class="dropdown-item dropdown-item-custom" href="#">Item 4</a>
-            <a class="dropdown-item dropdown-item-custom" href="#">Item 5</a>
-            <a class="dropdown-item dropdown-item-custom" href="#">Item 6</a>
+            <a class="dropdown-item dropdown-item-custom" href="#item1">Item 1</a>
+            <a class="dropdown-item dropdown-item-custom" href="#item2">Item 2</a>
+            <a class="dropdown-item dropdown-item-custom" href="#item3">Item 3</a>
+            <a class="dropdown-item dropdown-item-custom" href="#item4">Item 4</a>
+            <a class="dropdown-item dropdown-item-custom" href="#item5">Item 5</a>
+            <a class="dropdown-item dropdown-item-custom" href="#item6">Item 6</a>
           </div>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" id=nav-link-custom href="#">Contact</a>
+          <a class="nav-link" id=nav-link-custom href="#contact">Contact</a>
         </li>
 
 
@@ -73,9 +73,11 @@
 
   <section class="container-fluid-custom container-fluid">
 
+    <!-- Grid Container -->
     <div class="row">
-
-      <div class="about-me card-custom card">
+    
+      <!-- Grid Columns -->
+      <div id="about-me" class="about-me card-custom card col-sm-12 col-xl-6">
         <div class="card-header-custom card-header">
           About Me
         </div>
@@ -85,18 +87,95 @@
           <a href="#" class="btn btn-primary-card-custom btn-primary">Enter</a>
         </div>
       </div>
-
     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-      <div class="futureProj card-custom card">
+      
+      <!-- portfolio element -->
+      <div class="myPortfolio card-custom card col-sm-12 col-xl-6">
+        <div class="card-header-custom card-header">
+          My Portfolio
+        </div>
+        <div class="card-body-custom card-body">
+          <h5 class="card-title">Portfolio</h5>
+          <p class="card-text">All of my difficulties with the joy on breaking the barriers</p>
+          <!-- <a href="#" class="btn btn-primary-card-custom btn-primary">Enter</a> -->
+        </div>
+      </div>
+      <!-- Items -->
+      <div id="item1" class="item1 card-custom card col-3">
+
+        <div class="card-header-items-custom items-hover card-header">
+        Item 1
+        </div>
+        <div class="card-body-custom card-body">
+        <h5 class="card-title">Coming soon...</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum est impedit cupiditate
+          similique debitis unde?</p>
+        <a href="#" class="btn btn-primary-card-custom btn-primary">Enter</a>
+        </div>
+      </div>
+
+      <div id="item2" class="item2 card-custom card col-3">
+        <div class="card-header-items-custom items-hover card-header">
+        Item 2
+        </div>
+        <div class="card-body-custom card-body">
+        <h5 class="card-title">Coming soon..</h5>
+        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos cumque quo laborum
+          nulla, unde eligendi!</p>
+        <a href="#" class="btn btn-primary-card-custom btn-primary">Enter</a>
+        </div>
+      </div>
+
+      <div id="item3" class="item3 card-custom card col-3">
+        <div class="card-header-items-custom items-hover card-header">
+        Item 3
+        </div>
+        <div class="card-body-custom card-body">
+        <h5 class="card-title">Coming soon..</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores earum laborum aut
+          dignissimos nostrum molestias. </p>
+        <a href="#" class="btn btn-primary-card-custom btn-primary">Enter</a>
+        </div>
+      </div>
+
+      <div id="item4" class="item4 card-custom card col-3">
+        <div class="card-header-items-custom items-hover card-header">
+        Item 4
+        </div>
+        <div class="card-body">
+        <h5 class="card-title">Coming soon..</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore officiis neque, eos quae
+          saepe harum?</p>
+        <a href="#" class="btn btn-primary-card-custom btn-primary">Enter</a>
+        </div>
+      </div>
+
+      <div id="item5" class="item5 card-custom card col-3">
+        <div class="card-header-items-custom items-hover card-header">
+        Item 5
+        </div>
+        <div class="card-body">
+        <h5 class="card-title">Coming soon..</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore officiis neque, eos quae
+          saepe harum?</p>
+        <a href="#" class="btn btn-primary-card-custom btn-primary">Enter</a>
+        </div>
+      </div>
+
+      <div id="item6" class="item6 card-custom card col-3">
+        <div class="card-header-items-custom items-hover card-header">
+        Item 6
+        </div>
+        <div class="card-body">
+        <h5 class="card-title">Coming soon..</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore officiis neque, eos quae
+          saepe harum?</p>
+        <a href="#" class="btn btn-primary-card-custom btn-primary">Enter</a>
+        </div>
+      </div>
+    
+  
+      <div class="futureProj card-custom card col-sm-6 col-6">
         <div class="card-header-custom card-header">
           Future Projects
         </div>
@@ -106,89 +185,22 @@
           <a href="#" class="btn btn-primary-card-custom btn-primary">Enter</a>
         </div>
       </div> 
-      
-      <div class="myPortfolio card-custom card ">
-        <div class="card-header-custom card-header">
-          My Portfolio
-        </div>
-        <div class="card-body-custom card-body">
-          <h5 class="card-title">Portfolio and work</h5>
-          <p class="card-text">All of my difficulties with the joy on breaking the barriers</p>
-          <a href="#" class="btn btn-primary-card-custom btn-primary">Enter</a>
-        </div>
-      </div>
 
-
-
-      
-      
-
-
-      <div class="contact card-custom card">
+      <div id="contact" class="contact card-custom card col-12">
         <div class="card-header-custom card-header">
           Contact
         </div>
         <div class="card-body-custom card-body">
           <h5 class="card-title">Contact Details</h5>
-          <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
-          <a href="#" class="btn btn-primary-card-custom btn-primary">Enter</a>
+          <p class="card-text">Telephone: 0783 048 5425 </p>
+          <li>Email:</li><a href="">d.singhranger@yahoo.co.uk</a>
+          
         </div>
       </div>
 
-      
-    </div>
- 
-  <div class="row">
-
-    <div class="item1 card-custom card">
-      <div class="card-header-custom card-header">
-        Item 1 -
-      </div>
-      <div class="card-body-custom card-body">
-        <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
-        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum est impedit cupiditate
-          similique debitis unde?</p>
-        <a href="#" class="btn btn-primary-card-custom btn-primary">Enter</a>
-      </div>
-    </div>
-
-    <div class="item2 card-custom card">
-      <div class="card-header-custom card-header">
-        Item 2
-      </div>
-      <div class="card-body-custom card-body">
-        <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
-        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos cumque quo laborum
-          nulla, unde eligendi!</p>
-        <a href="#" class="btn btn-primary-card-custom btn-primary">Enter</a>
-      </div>
-    </div>
-
-    <div class="item3 card-custom card">
-      <div class="card-header-custom card-header">
-        Item 3
-      </div>
-      <div class="card-body-custom card-body">
-        <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
-        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores earum laborum aut
-          dignissimos nostrum molestias. </p>
-        <a href="#" class="btn btn-primary-card-custom btn-primary">Enter</a>
-      </div>
-    </div>
-
-    <div class="item4 card-custom card">
-      <div class="card-header-custom card-header">
-        Item 4
-      </div>
-      <div class="card-body">
-        <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
-        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore officiis neque, eos quae
-          saepe harum?</p>
-        <a href="#" class="btn btn-primary-card-custom btn-primary">Enter</a>
-      </div>
-    </div>
-  </div>
   </section>
+  
+ 
 
 
 

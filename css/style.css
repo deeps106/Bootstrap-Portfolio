@@ -100,16 +100,17 @@ margin: 0;
 
 .card-custom{
     display: flex;
-    align-items: start;
+    align-items: stretch;
     row-gap: 20px;
 }
 
+
 .card-header-custom:hover{
-    color: rgb(245, 245, 245);
+    color: rgb(255, 255, 255);
 }
-.about-me, .myPortfolio, .futureProj, .contact, .item1, .item2, .item3, .item4{
+.about-me, .myPortfolio, .futureProj, .contact, .item1, .item2, .item3, .item4, .item5, .item6{
     font-weight: bold;
-    line-height: 300%;
+    /* line-height: 300%; */
     width: 50em;
 }
 
@@ -122,6 +123,7 @@ margin: 0;
 
 .myPortfolio{
     font-weight: bolder;
+    line-height:100px;
     background-color: rgb(255, 255, 255, 0.1);
     background-image: url(../images/portfoliolg.jpg);
     background-size: 100% 100%;
@@ -131,6 +133,7 @@ margin: 0;
 
 
 .futureProj{
+    
     background-image: url(../images/futurelg.jpg);
     background-size: 100% 100%;
     background-color: rgb(244, 143, 36);
@@ -138,8 +141,21 @@ margin: 0;
 }
 
 .contact{
+    
     background-color: rgb(4, 75, 106);
     color: rgb(255, 255, 255);
+    line-height: 20px;
+}
+
+a{
+    color: white;
+}
+a:hover{
+    color: #ffff00;
+}
+
+li{
+    list-style-type: none;
 }
 
 /* items */
@@ -159,4 +175,20 @@ margin: 0;
 
 .item4{
     background-image: url();
+}
+
+.item5{
+    background-image: url();
+}
+
+.item6{
+    background-image: url();
+}
+
+.card-header-items-custom{
+    background-color: rgb(220, 53, 69, 1);
+}
+
+.items-hover:hover{
+    color: rgb(255, 255, 255);
 }
