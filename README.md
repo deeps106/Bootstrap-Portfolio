@@ -28,7 +28,9 @@ A Navigation bar with:
   1. resource materials about CSS selectors and HTML from W school and MDN
   
   2. youtube videos to understand principles of flexbox, css grids and bootstrap grid system as well as how to manipulate bootstrap to make the webpage responsive
-  3. 
+  
+  3. use of html and css code examples to work out and improve a better understanding of responsive grids, flexbox and bootstrap grids
+  
 ## What I learned from the challenge
 1. I obtained a better understanding of bootstrap grid system. This took a while and a fair few trials in manipulating the html elements. In the process I learnt that nested grids for this particular project would not be suitable to portray the simplicity of my design. I also felt that nested grids added complexity to a simple structure web design. I wanted to learn the basic prinicpes of creating a webpage without adding complexities such as nested grid. During this process I also found out that CSS grids within the bootstrap environment did not function as expected so I needed to abandon that trail and focus more on manipulating elements within a bootstrap grid.
 
