@@ -108,14 +108,14 @@ margin: 0;
 .card-header-custom:hover{
     color: rgb(255, 255, 255);
 }
-.about-me, .myPortfolio, .futureProj, .contact, .item1, .item2, .item3, .item4, .item5, .item6{
+.Skills, .myPortfolio, .futureProj, .contact, .item1, .item2, .item3, .item4, .item5, .item6{
     font-weight: bold;
     /* line-height: 300%; */
     width: 50em;
 }
 
-.about-me{
-    background-image: url(../images/aboutmelg.jpg);
+.Skills{
+    background-image: url(../images/skills.jfif);
     background-size: 100% 100%;
     background-color: rgb(67, 176, 207);
     color: rgb(0, 0, 0);
